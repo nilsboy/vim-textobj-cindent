@@ -30,8 +30,6 @@ function! s:findNearestIndentedNonEmptyLine(cursor_linenr) abort
     endwhile
   endif
 
-  call INFO('linenr: ', linenr)
-
   return linenr
 endfunction
 
