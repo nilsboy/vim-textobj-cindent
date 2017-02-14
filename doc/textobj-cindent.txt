@@ -1,0 +1,26 @@
+*textobj-cindent.txt*	Text objects for cindented blocks of lines
+
+CONTENTS					*textobj-cindent-contents*
+
+Introduction		|textobj-cindent-introduction|
+Mappings		  |textobj-cindent-mappings|
+
+==============================================================================
+INTRODUCTION					*textobj-cindent-introduction*
+
+This plugin provides text objects to select a block of lines that have the
+same indentation as the current line. Optionally their adjacent less indented
+lines can be added to the selection.
+
+==============================================================================
+MAPPINGS					*textobj-cindent-mappings*
+
+These mappings are defined:
+
+Select a block of lines that have the same indentation as the current line:
+map ii	<Plug>(textobj-cindent-i)
+
+Same as ii but include their adjacent less indented lines:
+map ai	<Plug>(textobj-cindent-a)
+
+==============================================================================
