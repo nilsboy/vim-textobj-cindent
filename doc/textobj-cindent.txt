@@ -12,6 +12,8 @@ This plugin provides text objects to select a block of lines that have the
 same indentation as the current line. Optionally their adjacent less indented
 lines can be added to the selection.
 
+This plugin depends on the plugin textobj-user.
+
 ==============================================================================
 MAPPINGS					*textobj-cindent-mappings*
 
