@@ -9,8 +9,8 @@ Mappings		  |textobj-cindent-mappings|
 INTRODUCTION					*textobj-cindent-introduction*
 
 This plugin provides text objects to select a block of lines that have the
-same indentation as the current line. Optionally their adjacent less indented
-lines can be added to the selection.
+same or higher indentation as the current line. Optionally their adjacent
+less indented lines can be added to the selection.
 
 This plugin depends on the plugin textobj-user.
 
@@ -19,7 +19,8 @@ MAPPINGS					*textobj-cindent-mappings*
 
 These mappings are defined:
 
-Select a block of lines that have the same indentation as the current line:
+Select a block of lines that have the same or higher indentation as the
+current line:
 map ii	<Plug>(textobj-cindent-i)
 
 Same as ii but include their adjacent less indented lines:
