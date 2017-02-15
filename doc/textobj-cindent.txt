@@ -1,4 +1,4 @@
-*textobj-cindent.txt*	Text objects for cindented blocks of lines
+*textobj-cindent.txt*	Select a block of lines by their c-style indentation.
 
 CONTENTS					*textobj-cindent-contents*
 
