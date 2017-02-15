@@ -1,1 +1,1 @@
-Dokumentation: [](doc/textobj-cindent.txt)
+See [here](doc/textobj-cindent.txt) for documentation.
